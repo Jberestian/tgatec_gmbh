@@ -186,7 +186,7 @@ h1 {
 	display: inline-block; 
 	width: 123px; 
 	height: 40px; 
-	background: url(/logo/logo.svg) left center no-repeat; 
+	background: url(../logo/logo.svg) left center no-repeat; 
 	border: 0;
 	text-indent: -999999px;
 }

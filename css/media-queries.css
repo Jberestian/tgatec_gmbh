@@ -120,7 +120,7 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .top-menu .logo a {
-		background-image: url(/logo/logo.svg) !important; 
+		background-image: url(../logo/logo.svg) !important; 
 		background-repeat: no-repeat !important; 
 		background-size: 123px 33px !important;
     }
