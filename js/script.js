@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
   /*
       Fullscreen Background
   */
-$.backstretch(src="https://lh3.googleusercontent.com/proxy/AsnpkbxqQEjzdyBaNt6vFc7azojjyhGz74koAu1yP0oVzIGMa6RRsR_3gpR3JRn2YsEtvHnWl0xy4ejbJOQpBD0kPP3y_fqqFXntkz9rYsdJ3pfxSHzvvQ");
+$.backstretch(src="./img/jahnstr1.jpg");
 
 /*
     Open / Close Menu 
