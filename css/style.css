@@ -50,12 +50,12 @@ h1 { margin-top: 10px; font-size: 38px; font-weight: 100; color: #000; line-heig
 .hamburger-button button:focus { outline: 0; }
 
 .hamburger-button button span {
-	display: block; width: 80%; height: 2px; margin: 5px auto; background: #fff;
+	display: block; width: 80%; height: 2px; margin: 5px auto; background: #000;
 	transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 
 .hamburger-button button:hover span,
-.hamburger-button button:focus span { background: #ccc; }
+.hamburger-button button:focus span { background: #000; }
 
 /* rotate first span */
 .hamburger-button button span:first-of-type { transform: rotate(45deg) translate(5px, 5px); }
@@ -83,7 +83,7 @@ h1 { margin-top: 10px; font-size: 38px; font-weight: 100; color: #000; line-heig
 
 .top-menu .logo a {
 	display: inline-block; width: 123px; height: 40px; 
-	background: url(../img/logo.svg) left center no-repeat; border: 0;
+	background: url(/logo/logo.svg) left center no-repeat; border: 0;
 	text-indent: -999999px;
 }
 
