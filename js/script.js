@@ -18,22 +18,3 @@ $('.hamburger-button button').on('click', function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-//carousel function start
-// document.addEventListener('DOMContentLoaded', function() {
-    // let elems = document.querySelectorAll('.carousel');
-    // let instances = M.Carousel.init(elems);
-  // });
-  //carousel function end
-
-
