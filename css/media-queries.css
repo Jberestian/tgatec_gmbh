@@ -16,11 +16,6 @@
 		right: 15px; 
 	}
 
-
-	footer {
-		margin-top: 152px;
-	}
-
 	.footer_navigation {
 		display: flex;
 		justify-content: space-around;
@@ -52,10 +47,6 @@
 
 	.hamburger-button button { 
 		right: 15px; 
-	}
-
-	footer {
-		margin-top: 72px;
 	}
 
 	.footer_navigation {
