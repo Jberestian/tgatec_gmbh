@@ -234,7 +234,8 @@ footer {
 	background: #333333;
 	height: auto;
 	min-height: 40px;
-	/* margin-top: 385px; */
+	position: relative;
+	top: 420px;
 }
 
 .copyright {
