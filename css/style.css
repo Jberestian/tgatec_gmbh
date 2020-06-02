@@ -234,13 +234,14 @@ footer {
 	background: #333333;
 	height: auto;
 	min-height: 40px;
-	margin-top: 100px;
+	/* margin-top: 385px; */
 }
 
-/* .footer_navigation {
-	display: flex;
-    justify-content: space-around;
-} */
+.copyright {
+	font-family: 'Inconsolata', monospace;
+	border-bottom: none;
+	color:	#fff;
+}
 
 .footer_nav_link:hover, 
 .footer_nav_link:focus {
@@ -255,10 +256,6 @@ footer {
 	color:	#fff;
 }
 
-.footer_list {
-	/* padding: 20px; */
-}
-
 .link_img {
 	width: 20px;
 	height: 20px;	
@@ -267,9 +264,3 @@ footer {
 
 }
 
-.copyright {
-	font-family: 'Inconsolata', monospace;
-	border-bottom: none;
-	color:	#fff;
-	/* padding: 20px; */
-}

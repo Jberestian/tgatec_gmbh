@@ -1,5 +1,5 @@
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1980px) {
 	
 	.top-menu .components { 
 		max-width: 992px; 
@@ -13,6 +13,23 @@
 
 	.hamburger-button button { 
 		right: 15px; 
+	}
+
+
+	.footer_navigation {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.copyright {
+		font-family: 'Inconsolata', monospace;
+		border-bottom: none;
+		color:	#fff;
+		padding: 20px; 
+	}
+	
+	.footer_list {
+		padding: 20px;
 	}
 	
 }
@@ -30,6 +47,22 @@
 
 	.hamburger-button button { 
 		right: 15px; 
+	}
+
+	.footer_navigation {
+		display: flex;
+		justify-content: center;
+	}
+
+	.copyright {
+		font-family: 'Inconsolata', monospace;
+		border-bottom: none;
+		color:	#fff;
+		padding: 20px; 
+	}
+	
+	.footer_list {
+		padding: 20px;
 	}
 
 }
