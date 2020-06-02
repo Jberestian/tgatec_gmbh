@@ -231,11 +231,12 @@ h1 {
 /* footer style */
 
 footer {
+	width: 100%;
 	background: #333333;
 	height: auto;
 	min-height: 40px;
-	position: relative;
-	top: 420px;
+	position: absolute;
+	bottom: 0;
 }
 
 .copyright {
