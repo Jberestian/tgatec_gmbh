@@ -9,12 +9,17 @@
 	
 	.hamburger-button { 
 		max-width: 992px; 
+		display: none;
 	}
 
 	.hamburger-button button { 
 		right: 15px; 
 	}
 
+
+	footer {
+		margin-top: 152px;
+	}
 
 	.footer_navigation {
 		display: flex;
@@ -47,6 +52,10 @@
 
 	.hamburger-button button { 
 		right: 15px; 
+	}
+
+	footer {
+		margin-top: 72px;
 	}
 
 	.footer_navigation {
