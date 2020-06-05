@@ -303,9 +303,11 @@ h3 {
   }
   .yourFlickgalWrap .arrows .prev {
 	float: left;
+	border: none;
   }
   .yourFlickgalWrap .arrows .next {
 	float: right;
+	border: none;
   }
   
 

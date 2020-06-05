@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
   /*
       Fullscreen Background
   */
-$.backstretch(src="./img/jahnstr/jahnstr_main.jpg");
+// $.backstretch(src="./img/jahnstr/jahnstr_main.jpg");
 
 /*
     Open / Close Menu 
@@ -19,6 +19,9 @@ $('.hamburger-button button').on('click', function(){
 
 });
 
+/* 
+  Next Prev function
+*/
 $(function() {
   var $message = $('.message');
 
