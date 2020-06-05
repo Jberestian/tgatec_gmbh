@@ -249,6 +249,66 @@ h3 {
 	outline: 0; 
 }
 
+
+/* Main slider */
+
+#slider {
+	margin-top: 150px;
+}
+
+.yourFlickgalWrap .item { 
+	width: 200px 
+  }
+  
+  .yourFlickgalWrap .moving {
+	-webkit-transition: -webkit-transform .2s ease-out;
+	-moz-transition: -moz-transform .2s ease-out;
+  }
+  
+  .yourFlickgalWrap .containerInner .item {
+	display: inline-block;
+	margin: 0 5px;
+  
+	-webkit-user-select: none;
+	user-select: none;
+  }
+  
+  .yourFlickgalWrap .nav li a:hover {
+	background: lightgray;
+  }
+  
+  .yourFlickgalWrap .nav li a:active {
+	background: gray;
+  }
+  
+  .yourFlickgalWrap .arrows {
+	font-size: 300%;
+  }
+  
+  .yourFlickgalWrap .arrows a {
+	text-decoration: none;
+	color: rgba(0,0,0,.6);
+  }
+  
+  .yourFlickgalWrap .arrows a:hover {
+	background: lightgray;
+	color: rgba(0,0,0,1);
+  }
+  .yourFlickgalWrap .arrows a:active {
+	background: gray;
+  }
+  .yourFlickgalWrap .arrows a.off {
+	color: rgba(0,0,0,.2);
+	background: none;
+  }
+  .yourFlickgalWrap .arrows .prev {
+	float: left;
+  }
+  .yourFlickgalWrap .arrows .next {
+	float: right;
+  }
+  
+
 /* footer style */
 
 footer {

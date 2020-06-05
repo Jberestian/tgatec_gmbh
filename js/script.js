@@ -15,6 +15,23 @@ $('.hamburger-button button').on('click', function(){
   $(this).toggleClass('menu-closed');
 });
 
+
+
 });
 
+$(function() {
+  var $message = $('.message');
 
+  $('.yourFlickgalWrap').flickGal({
+    'infinitCarousel': true
+  })
+    .on('fg_flickstart', function(e, index) {
+      $message.html('The event <b>fg_flickstart</b> is dispatched.');
+    })
+    .on('fg_flickend', function(e, index) {
+      $message.html('The event <b>fg_flickend</b> is dispatched.');
+    })
+    .on('fg_change', function(e, index) {
+      $message.html('The event <b>fg_change</b> is dispatched.');
+    });
+});
