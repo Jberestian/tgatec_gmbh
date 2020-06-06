@@ -258,8 +258,8 @@ h3 {
 }
 
 .yourFlickgalWrap .item { 
-	width: 300px;
-	height: 150px; 
+	width: 310px;
+	height: 200px; 
   }
   
   .yourFlickgalWrap .moving {
@@ -306,10 +306,12 @@ h3 {
   .yourFlickgalWrap .arrows .prev {
 	float: left;
 	border: none;
+	cursor: pointer;
   }
   .yourFlickgalWrap .arrows .next {
 	float: right;
 	border: none;
+	cursor: pointer;
   }
   
 
