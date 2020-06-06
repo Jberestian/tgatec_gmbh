@@ -256,6 +256,10 @@ h3 {
 	margin-top: 140px;
 }
 
+.slider_description {
+	margin-top: -20px;
+}
+
 .yourFlickgalWrap .item { 
 	width: 310px;
 	height: 200px; 
@@ -298,7 +302,7 @@ h3 {
 	color: rgba(0,0,0,1);
   }
   .yourFlickgalWrap .arrows a:active {
-	background: gray;
+	background: #888;
   }
   .yourFlickgalWrap .arrows a.off {
 	color: rgba(0,0,0,.2);
