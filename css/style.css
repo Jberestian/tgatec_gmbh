@@ -260,70 +260,16 @@ h3 {
 	margin-bottom: 20px;
 }
 
-.yourFlickgalWrap .item { 
+.container_img .item { 
 	width: 310px;
 	height: 200px; 
   }
-  
-  .yourFlickgalWrap .moving {
-	-webkit-transition: -webkit-transform .2s ease-out;
-	-moz-transition: -moz-transform .2s ease-out;
-  }  
-  
-  .yourFlickgalWrap .containerInner .item {
-	display: inline-block;
+
+  .container_img .containerInner .item {
 	margin: 0 5px;
-  
-	-webkit-user-select: none;
-	user-select: none;
-  }
-  
-  .yourFlickgalWrap .nav li a:hover {
-	background: lightgray;
-  }
-  
-  .yourFlickgalWrap .nav li a:active {
-	background: gray;
-  }
-  
-  .yourFlickgalWrap .arrows {
-	font-size: 300%;
-  }
-  
-  .yourFlickgalWrap .arrows a {
-	text-decoration: none;
-	color: rgba(0,0,0,.6);
-  }
-  
-  .yourFlickgalWrap .arrows a:hover {
-	background: lightgray;
-	color: rgba(0,0,0,1);
-  }
-  .yourFlickgalWrap .arrows a:active {
-	background: #888;
-  }
-  .yourFlickgalWrap .arrows a.off {
-	color: rgba(0,0,0,.2);
-	background: none;
-  }
-  .yourFlickgalWrap .arrows .prev {
-	float: left;
-	border: none;
-	cursor: pointer;
-  }
-  .yourFlickgalWrap .arrows .next {
-	float: right;
-	border: none;
-	cursor: pointer;
   }
 
-  .arrows {
-	padding-top: 20px;
-  }
-
-
-
-  * картинка на странице */
+  /* image in the pageе */
   .minimized {
 	width: 300px;
 	cursor: pointer;
@@ -334,7 +280,7 @@ h3 {
 	border: 1px solid yellow;
   }
   
-  /* увеличенная картинка */
+  /* resize image */
   #magnify {
 	display: none;
   	position: fixed;
@@ -347,7 +293,7 @@ h3 {
 	width: 100%;
   }
   
-  /* затемняющий фон */
+  /* dark backgroundн */
   #overlay {
 	display: none;
   
@@ -361,7 +307,7 @@ h3 {
 	z-index: 9990;
   }
   
-  /* кнопка закрытия */
+  /* close button */
   #close-popup {
 	width: 30px;
 	height: 30px;
