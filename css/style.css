@@ -93,6 +93,12 @@ h3 {
   color: #fff;
   text-shadow: none;
 }
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
 
 .nav_link {
   text-transform: uppercase;
@@ -272,6 +278,7 @@ h3 {
 
 #slider {
   margin-top: 65px;
+  flex: 1;
 }
 
 .slider_description {
@@ -365,7 +372,7 @@ footer {
   width: 100%;
   background: #333333;
   height: auto;
-  min-height: 40px;
+  /* min-height: 40px; */
   /* position: fixed; */
   bottom: 0;
 }
