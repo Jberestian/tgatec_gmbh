@@ -1,3 +1,4 @@
+/* desctop */
 @media (min-width: 992px) and (max-width: 1980px) {
   .top-menu .components {
     max-width: 992px;
@@ -29,8 +30,11 @@
   .footer_list {
     padding: 20px;
   }
+  .card {
+    width: 33%;
+  }
 }
-
+/* laptop */
 @media (min-width: 768px) and (max-width: 991px) {
   .top-menu .components {
     max-width: 768px;
@@ -60,6 +64,9 @@
 
   .footer_list {
     padding: 20px;
+  }
+  .card {
+    width: 45%;
   }
 }
 
