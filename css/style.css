@@ -276,7 +276,10 @@ h3 {
 
 /* Main slider */
 
-#slider {
+#slider,
+#contacts,
+#contacts,
+#main {
   margin-top: 65px;
   flex: 1;
 }
