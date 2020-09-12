@@ -101,6 +101,7 @@ h3 {
 
 .main_description {
 	margin: 30px 0 0 0; 
+	padding: 20px;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 17px;
 	color: #000;
