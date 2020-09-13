@@ -122,18 +122,11 @@ h3 {
 }
 
 .main_description {
-<<<<<<< HEAD
 	margin: 30px 0 0 0; 
 	padding: 20px;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 17px;
 	color: #000;
-=======
-  margin: 30px 0 0 0;
-  font-family: "Maven Pro", sans-serif;
-  font-size: 17px;
-  color: #000;
->>>>>>> 73b95841e5a3ce5813a711002a304921e2569812
 }
 
 .description {
