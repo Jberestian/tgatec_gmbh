@@ -1,0 +1,16 @@
+#all_projects {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 50px;
+  width: 320px;
+}
+.nav-project {
+  z-index: 100;
+}
