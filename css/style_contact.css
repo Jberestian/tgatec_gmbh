@@ -20,15 +20,20 @@
   height: 200px;
   margin-bottom: 30px;
 }
+.card-body {
+  padding: 2.25rem;
+}
 .contact-icon {
   font-size: 35px;
-  color: black;
+  color: #bb8d8d;
 }
 
 .card-link {
   height: 200px;
+  border-bottom: none;
 }
 
 .card-text {
   margin-top: 30px;
+  color: #888;
 }
