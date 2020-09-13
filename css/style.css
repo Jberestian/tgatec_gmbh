@@ -98,6 +98,7 @@ h3 {
   flex-direction: column;
   height: 100%;
   position: relative;
+  min-height: 100%;
 }
 
 .nav_link {
@@ -218,6 +219,7 @@ h3 {
   position: fixed;
   top: -65px;
   left: 0;
+  z-index: 100;
   width: 100%;
   padding: 10px 0;
   background: #333;
@@ -227,6 +229,7 @@ h3 {
 
 .top-menu.active {
   top: 0;
+  z-index: 100;
 }
 
 .top-menu .components {
@@ -375,8 +378,7 @@ footer {
   width: 100%;
   background: #333333;
   height: auto;
-  /* min-height: 40px; */
-  /* position: fixed; */
+  z-index: 100;
   bottom: 0;
 }
 
